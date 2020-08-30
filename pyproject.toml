@@ -10,6 +10,9 @@ authors = ["James Lewellyn <lewellyn.james@gmail.com>"]
 maintainers = ["James Lewellyn <lewellyn.james@gmail.com>"]
 license = "MIT"
 
+[tool.poetry.scripts]
+pybagplot = 'pybagplot.BagPlot:main'
+
 [tool.poetry.dependencies]
 python = "^3.8"
 pandas = "^1"
